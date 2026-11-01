@@ -1,0 +1,8 @@
+# Maksimal listing aktif per pemain
+max-listings-per-player: 5
+
+# Maksimal tawaran masuk per listing
+max-offers-per-listing: 10
+
+# Umumkan ke semua pemain saat ada listing baru
+broadcast-new-listing: true
