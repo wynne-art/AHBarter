@@ -1,0 +1,18 @@
+name: BarterAH
+version: 1.0.0
+main: dev.barterah.BarterAH
+api-version: '26.2'
+description: Auction house sistem barter (tanpa ekonomi)
+commands:
+  ah:
+    description: Auction house barter
+    usage: /ah help
+    aliases: [barterah]
+    permission: barterah.use
+permissions:
+  barterah.use:
+    description: Pakai auction house
+    default: true
+  barterah.admin:
+    description: Batalkan listing orang lain dan reload config
+    default: op
